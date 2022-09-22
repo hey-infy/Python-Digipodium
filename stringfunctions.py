@@ -68,4 +68,3 @@ IN_count=data.count(' in ')       # ( in ) counts only IN but (in) counts even i
 in_count=data.count('in')
 print(f'IN occurs {IN_count} times as individual word')
 print(f'IN occurs {in_count} times in total')
-

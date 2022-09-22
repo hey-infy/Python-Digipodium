@@ -53,7 +53,7 @@ a='apple'
 b='juice'
 ab=a+b
 print(ab)
-#odding space b/w string
+#adding space b/w string
 msg=w1+' '+w2+' '+w3
 print(msg)
 
