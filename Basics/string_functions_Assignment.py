@@ -36,11 +36,16 @@ joined = "".join(words)
 print(joined)
 
 #Print a multiline string using python 
-
+data = ''
+while true:
+    line = input()
+    if  not line == '':
+        break
+    data += line + "\n"
+print(data)
 
 #String move to new line 
-t = 'to move to a new line \n is used.'
-print(repr(t))
+print('\\n')         #double \\  cancels the function of \ 
 
 
 #Print a variable wth text
