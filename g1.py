@@ -11,14 +11,15 @@ def draw():
 
 def update():
     if keyboard.left:
-        p.x -= 2
+        p.x -= 5
+        p.angle = 10
     elif keyboard.right:
-        p.x += 2
-    
+        p.x += 5
+        p.angle = -10
     elif keyboard.up:
-        p.y -=2
+        p.y -= 5
     elif keyboard.down:
-        p.y += 2
+        p.y += 5
     else:
         p.angle = 0
 
