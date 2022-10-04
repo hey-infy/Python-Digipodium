@@ -33,12 +33,12 @@ class Player(Actor):
             self.y -= self.speed
             self.angle = +10
         elif keyboard.Z:
-            self.x -= self.speed()
-            self.y += self.speed()
+            self.x -= self.speed
+            self.y += self.speed
             self.angle = +10
         elif keyboard.X:
-            self.x += self.speed()
-            self.y += self.speed()
+            self.x += self.speed
+            self.y += self.speed
             self.angle = -10
         else:
             self.angle = 0
