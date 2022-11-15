@@ -9,7 +9,7 @@ books.append("Wings of Fire")
 print(books)
 
 #enumerate function
-print('idx \t | \t Book')     # \t guves 4 blank spaces
+print('idx \t | \t Book')     # \t gives 4 blank spaces
 for i,b in enumerate(books):
     print(f'{i}\t | \t {b}')
 

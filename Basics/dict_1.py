@@ -9,7 +9,7 @@ val_dict = {
 }
 
 #displaying a dictionary
-print(val_dict)
+#print(val_dict)
 
 #retreive data from dict
 ans = val_dict["Designation"]     #my_dict["Key of value to be printed"]
@@ -22,6 +22,8 @@ print(val_dict["Experience"])
 val_dict["Company"] = "ACME.inc"          
 print(val_dict)
 
+'''
 from pprint import pp
 
 pp(val_dict)       #pp function stands for Pretty print shows dict in a good look 
+'''
